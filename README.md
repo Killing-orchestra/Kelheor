@@ -1,2 +1,3 @@
 # Kelheor
-A chatbot game for Telegram.
+- A chatbot game for Telegram.
+- Hosts on Heroku.
