@@ -1,1 +1,1 @@
-[![Build status](https://travis-ci.org/Killing-orchestra/Kelheor.svg)](https://travis-ci.org/Killing-orchestra)
+[![Build status](https://travis-ci.org/Killing-orchestra/Kelheor.png)](https://travis-ci.org/Killing-orchestra)
