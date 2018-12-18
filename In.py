@@ -54,16 +54,15 @@ def main():
 		crypto=False
 		message=ASCII.int2message(num, crypto)
 	else:
-                try:
-                        crypto=True
-                        code=ASCII.int2message(num, crypto)
-                        print(code)
-                        code=binascii.unhexlify(code)
-                        password = bytearray(password,"utf8")
-                        message = siphr.decrypt(password, code)
-                        message=str(message, "utf8")
+		try:
+			crypto=True
+			code=ASCII.int2message(num, crypto)
+			code=binascii.unhexlify(code)
+			password = bytearray(password,"utf8")
+			message = siphr.decrypt(password, code)
+			message=str(message, "utf8")
 		except UnicodeDecodeError:
-                        print("Wrong password.")
+			print("Wrong password.")
 	print(message)
 
 
